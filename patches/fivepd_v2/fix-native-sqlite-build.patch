@@ -1,0 +1,11 @@
+diff --git a/src/FivePD.Server/FivePD.Server.csproj b/src/FivePD.Server/FivePD.Server.csproj
+index 900fb2c..0000000 100644
+--- a/src/FivePD.Server/FivePD.Server.csproj
++++ b/src/FivePD.Server/FivePD.Server.csproj
+@@
+         <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="3.0.2" />
++        <PackageReference Include="SourceGear.sqlite3" Version="3.53.4" />
+         <PackageReference Include="System.Data.SQLite" Version="2.0.2" />
+@@
+-            <NativeFiles Include="$(NuGetPackageRoot)sqlite\3.53.4\runtimes\win-x64\native\e_sqlite3.dll" />
++            <NativeFiles Include="$(NuGetPackageRoot)sourcegear.sqlite3\3.53.4\runtimes\win-x64\native\e_sqlite3.dll" />
